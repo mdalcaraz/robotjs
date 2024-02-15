@@ -1,0 +1,23 @@
+{
+  "name": "robotjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "robotjs": "^0.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "pkg": {
+    "scripts": "build/**/*.js",
+    "assets": "views/**/*",
+    "targets": [ "node20-win-x64" ],
+    "outputPath": "dist"
+  }
+}
